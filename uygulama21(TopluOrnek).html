@@ -6,31 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    <fieldset>
-    <legend>Sözlesme Onay</legend>
+    <fieldset style="background-color: aqua;">
+    <legend style="font-size: larger;">Sözlesme Onay</legend>
     <label>Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi kabul ediyorum : </label>
         <input type="checkbox" name="kutu1" required="required"> <br/><br/>
         <input type="submit"value="Gönder"/>
         <input type="reset" value="Temizle"/>
     </fieldset>
-    <fieldset>
-        <legend>Kişisel Bilgiler</legend>
+    <fieldset style="background-color: aquamarine;">
+        <legend style="font-size: larger;">Kişisel Bilgiler</legend>
         <label>Form Güvenlik Id</label>
-        <input type="text"><br>
+        <input type="text"><br><br/>
         <label>Ad</label>
-        <input type="text"><br>
+        <input type="text"><br><br/>
         <label>Soyad</label>
-        <input type="text"><br>
+        <input type="text"><br><br/>
         <label>Yas</label>
-        <input type="text"><br>
+        <input type="text"><br><br/>
         <label>mail</label>
-        <input type="text"><br>
+        <input type="text"><br><br/>
         <label>Fotoğraf Ekle</label>
-        <input type="text"><br>
+        <input type="text"><br><br/>
         <input type="file"name="dosya"/>
     </fieldset>
-    <fieldset>
-        <legend>Diğer Bilgiler</legend>
+    <fieldset style="background-color: blueviolet;">
+        <legend style="font-size: larger;">Diğer Bilgiler</legend>
         <label>Buradaki alanlar Mesleki Deneyimleri Kapsar</label><br/><br/>
         <label>Sektöre Giriş Saati</label>
         <input type="date" id="tarihmin" name="tarihmin" min="2021-05-01"><br/><br/>
@@ -40,7 +40,7 @@
         <input type="radio"name="secim"/>11 - 15 Yıl<br/><br/>
         <input type="radio"name="secim"/>15 üzeri Yıl<br/><br/>
         <label>Programlama Dilleri</label><br/><br/>
-        <select name="dil" id="dil">
+        <select name="dil" id="dil" multiple>
             <option value="">C#</option>
             <option value="">PHP</option>
             <option value="">JAVA</option>
@@ -48,17 +48,17 @@
             <option value="">javaScript</option>
         </select>
     </fieldset>
-    <fieldset>
-        <legend>Sözleşme Kopyası</legend>
+    <fieldset style="background-color: green;">
+        <legend style="font-size: larger;">Sözleşme Kopyası</legend>
         <label></label> 
                  <textarea rows="10" cols="50" tabindex="20"></textarea> <br/><br/>
     </fieldset>
-    <fieldset>
-        <legend>Mail Listesi</legend>
+    <fieldset style="background-color: blue;">
+        <legend style="font-size: larger;">Mail Listesi</legend>
         <label></label>
-
-
-
+        <label>Mail listesine katılmak</label>
+        <label><strong>istiyorum</strong></label>
+        mail listesinde adımın geçmesini<u> istemiyorum </u><br/>
     </fieldset>
 </body>
 </html>
