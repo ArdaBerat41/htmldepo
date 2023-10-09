@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <legend>Sözlesme Onay</legend>
+    <label>Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi kabul ediyorum : </label>
+        <input type="checkbox" name="kutu1" required="required"> <br/><br/>
+        <input type="submit"value="Gönder"/>
+        <input type="reset" value="Temizle"/>
+    </fieldset>
+    <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+        <label>Form Güvenlik Id</label>
+        <input type="text"><br>
+        <label>Ad</label>
+        <input type="text"><br>
+        <label>Soyad</label>
+        <input type="text"><br>
+        <label>Yas</label>
+        <input type="text"><br>
+        <label>mail</label>
+        <input type="text"><br>
+        <label>Fotoğraf Ekle</label>
+        <input type="text"><br>
+        <input type="file"name="dosya"/>
+    </fieldset>
+    <fieldset>
+        <legend>Diğer Bilgiler</legend>
+        <label>Buradaki alanlar Mesleki Deneyimleri Kapsar</label><br/><br/>
+        <label>Sektöre Giriş Saati</label>
+        <input type="date" id="tarihmin" name="tarihmin" min="2021-05-01"><br/><br/>
+        <label>Sektör Deneyimi</label><br/><br/>
+        <input type="radio"name="secim"/>1 - 5 Yıl<br/><br/>
+        <input type="radio"name="secim"/>6 - 10 Yıl<br/><br/>
+        <input type="radio"name="secim"/>11 - 15 Yıl<br/><br/>
+        <input type="radio"name="secim"/>15 üzeri Yıl<br/><br/>
+        <label>Programlama Dilleri</label><br/><br/>
+        <select name="dil" id="dil">
+            <option value="">C#</option>
+            <option value="">PHP</option>
+            <option value="">JAVA</option>
+            <option value="">Pyhton</option>
+            <option value="">javaScript</option>
+        </select>
+
+
+
+    </fieldset>
+</body>
+</html>
