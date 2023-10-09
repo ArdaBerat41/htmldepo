@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üyelik_Bilgisi</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Üyelik Bilgileri</legend>
+         <label>Ad Soyad : </label>
+         <input type="text" name="adSoyad" required="required"> <br/><br/>
+         <label>e-Posta : </label>
+         <input type="email" name="ePosta" required="required"> <br/><br/>
+         <label>Doğum Tarihi : </label>
+         <input type="date" name="dogumTarihi" required="required"> <br/><br/>
+         <input type="submit" value="Gönder"/>
+         <input type="reset" value="Temizle"/>
+        </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Yorum Gönder</legend>
+                 <label>e-Posta:</label> 
+                 <input type="text" tabindex="1"/>
+                 <label>Yorum:</label> 
+                 <textarea rows="3" cols="20" tabindex="2"></textarea> <br/><br/>
+                 <!--geniş yazı yazabilecegimiz yeri olusşturu-->
+                 <input type="submit"value="Gönder"/>
+                 <input type="reset" value="Temizle"/>
+                </fieldset>
+                </form>
+        </form>
+        <form name="giris" method="get">
+            <p>Renk Seçin:<input type="color" name="renk"></p>
+            <p>Doğum Tarihi:<input type="date" name="dogumtarihi"></p>
+            <p>Doğum Günü:<input type="datetime" name="dogumgunu"></p>
+            <p>Ay ve yıl:<input type="month" name="ay"></p>
+            <p>Hafta ve yıl:<input type="week" name="hafta"></p>
+            <p>Randevu Saati:<input type="time" name="randevusaat"></p>
+            <p>Randevu Saati ve Tarihi:<input type="datetime-local" name="randevutarih"></p>
+            <p>E-posta:<input type="email" name="eposta"></p>
+            <p>webSayfasi:<input type="url" name="weburl"></p>
+            <p>Sayı(1-9):<input type="sumber" name="sec" min="1" max="9"></p>
+            <p>Parola:<input type="password" name="sifre"></p>
+            <p>Aralık:<input type="range" name="secim" min="1" max="9"></p>
+            <p>Arama:<input type="search" name="arama"></p>
+            <p>GSM:<input type="tel" name="gsmno"></p>
+        </form>
+</body>
+</html>
