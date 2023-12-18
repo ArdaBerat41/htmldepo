@@ -1,56 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <title>Table</title>
-</head>
-<body>
-    <div class="container">
-        <ul class="list-group">
-            <li class="list-group-item disabled" aria-disabled="true">Pasif Madde</li>
-            <li class="list-group-item">Defter</li>
-            <li class="list-group-item list-group-item-danger">Kalem</li>
-            <li class="list-group-item">Silgi</li>
-            <li class="list-group-item">Kitap</li>
-        </ul>
-    </div>
-    <div class="container mt-4">
-        <div class="list-group">
-            <a href="https://www.youtube.com" class="list-group-item list-group-item-action active" aria-current="true">Aktif</a>
-            <a href="" class="list-group-item list-group-item-action">Bilgisayar</a>
-            <a href="" class="list-group-item list-group-item-action">Kablo</a>
-            <a href="" class="list-group-item list-group-item-action">İnternet</a>
-            <a href="" class="list-group-item list-group-item-action">Bilgisayar</a>
-            <a href="" class="list-group-item list-group-item-action active disabled" aria-disabled="true">Pasif</a>
-        </div>
-    </div>
-    <div class="container mt-4">
-        <ol class="list-group list-group-numbered list-group-flush">
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold">Mesaj Kutusu</div>
-                    Gelen Mesaj
-                </div>
-                <span class="badge bg-primary rounded-pill">14</span>
-            </li>
-
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold">Mesaj Kutusu</div>
-                    Giden Mesaj
-                </div>
-                <span class="badge bg-primary badge-pill">20</span>
-            </li>
-
-            <li class="list-group-item d-flex justify-content-between align-items-start">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold">Mesaj Kutusu</div>
-                    Gönderilmişler
-                </div>
-                <span class="badge bg-primary badge-pill">18</span>
-            </li>
-        </ol>
-    </div>
-</body>
-</html>
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOOTSTRAP_UYGULAMALARI", "BOOTSTRAP_UYGULAMALARI\BOOTSTRAP_UYGULAMALARI.csproj", "{647D83B1-42AB-4A3B-BA20-FCEE4F161922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647D83B1-42AB-4A3B-BA20-FCEE4F161922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647D83B1-42AB-4A3B-BA20-FCEE4F161922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647D83B1-42AB-4A3B-BA20-FCEE4F161922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647D83B1-42AB-4A3B-BA20-FCEE4F161922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DF6BE61-95FE-4643-8335-27C01CAF5059}
+	EndGlobalSection
+EndGlobal
